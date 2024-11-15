@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1729254880 source:c:\users\owner\onedrive\desktop\proplem solving\c. registration system\main.cpp
+	<iostream>
+	<unordered_map>
+	<string>
+
