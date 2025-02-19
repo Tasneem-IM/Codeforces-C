@@ -25,10 +25,10 @@ int main()
             cin>>s;
             v.push_back(s);
         }
-        ll sum=0,men=0;
+        ll sum=0,minn=0;
           for(ll j=0;j<m;j++)
           {
-            men+=abs((int)v[0][j]-(int)v[1][j]);
+            minn+=abs((int)v[0][j]-(int)v[1][j]);
           }
      for(ll i=0;i<v.size()-1;i++)
      {
@@ -39,13 +39,13 @@ int main()
               {
                 sum+=abs((int)v[i][j]-(int)v[k][j]);
               }
-              if(sum<=men)
+              if(sum<=minn)
               {
-                  men=sum;
+                  minn=sum;
               }
           }
      }
-        cout<<men<<endl;
+        cout<<minn<<endl;
 	}
     return 0;
 }
